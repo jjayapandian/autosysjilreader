@@ -1,0 +1,19 @@
+#### Properties: rubyide_project-project - Version: 1.0
+--- 
+"|": 
+- basedirectory: /home/david/svn/trunk
+- cmd_line_options: ""
+- default_script: ""
+- name: autosysjilreader
+- required_directories: []
+
+- run_in_terminal: false
+- save_before_running: true
+- source_directories: 
+  - /home/david/svn/trunk
+- "|": 
+  - open_files: []
+
+  state: 
+- working_dir: ""
+properties: 
