@@ -1,0 +1,17 @@
+
+insert_job: P_1DER_GET_STUFF job_type: C
+runtime: 1200
+output: d\:\autosys\logs\%JOB_NAME%.out
+
+
+insert_job: P_1DER_GET_STUFF job_type: C
+runtime: 1200
+output: d\:\autosys\logs\%JOB_NAME%.out
+
+
+
+insert_job: P_1DER_GET_FTP_STUFF job_type: C
+runtime: 1200
+output: d\:\autosys\logs\%JOB_NAME%.out
+
+
