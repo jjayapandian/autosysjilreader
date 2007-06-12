@@ -3,7 +3,7 @@
 "|": 
 - basedirectory: /home/david/svn/trunk
 - cmd_line_options: ""
-- default_script: ""
+- default_script: /home/david/svn/trunk/test.rb
 - name: autosysjilreader
 - required_directories: []
 
@@ -11,9 +11,10 @@
 - save_before_running: true
 - source_directories: 
   - /home/david/svn/trunk
+  - /home/david/svn/trunk/testfiles
 - "|": 
-  - open_files: []
-
+  - open_files: 
+    - /home/david/svn/trunk/test.rb
   state: 
 - working_dir: ""
 properties: 
