@@ -1,0 +1,16 @@
+example
+irb(main):176:0> "name:davd      type:c".scan(g)       
+=> [["name", "davd"], ["type", "c"]]
+irb(main):177:0> "name:davd      type: c".scan(g)       
+=> [["name", "davd"]]
+irb(main):178:0> g=/(_|[a-zA-Z]+):(\s*[a-zA-Z]+)/
+=> /(_|[a-zA-Z]+):(\s*[a-zA-Z]+)/
+irb(main):179:0> "name:davd      type: c".scan(g)       
+=> [["name", "davd"], ["type", " c"]]
+irb(main):180:0> f="name:davd      type: c".scan(g)       
+=> [["name", "davd"], ["type", " c"]]
+irb(main):181:0> f.class
+=> Array
+irb(main):182:0> f[0].class
+=> Array
+irb(main):183:0> 
