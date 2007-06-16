@@ -16,6 +16,9 @@
 - "|": 
   - open_files: 
     - /home/david/svn/trunk/tests/TestJobList.rb
+    - /home/david/svn/trunk/lib/JobList.rb
+    - /home/david/svn/trunk/lib/Job.rb
+    - /home/david/svn/trunk/lib/Environment.rb
   state: 
 - working_dir: ""
 properties: 
